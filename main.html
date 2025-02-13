@@ -1,16 +1,31 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modal Demo</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
 
+  <!-- Button to open the modal -->
+  <button id="openModal">Open Modal</button>
+
+  <!-- Modal structure -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <!-- Modal header -->
+      <div class="modal-header">
+        <h2>Modal Header</h2>
+        <span class="close-modal">&times;</span>
+      </div>
+      <!-- Modal body -->
+      <div class="modal-body">
+        <p>Modal Body Content</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
-
 </html>
